@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Розклад занять Інституту Аграрії</title>
+    <style>
+         body {
+            background-color: #f2c4ff; /* Ніжно фіолетовий фон */
+            text-align: center; /* Вирівняти текст по центру */
+        }
+        table {
+            width: 40%; 
+            margin: 20px 0px 0px 0px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        th {
+            background-color: #663399; /* Колір заголовка */
+            color: #fff;
+        }
+        th.col-day {
+            width: 20%;
+        }
+        th.col-time {
+            width: 40%;
+        }
+        th.col-subjects {
+            width: 40%;
+        }
+</style>
+</head>
+
+<body>
+    <h1>Розклад занять Інституту Аграрії</h1>
+
+    <!-- Місце для зображення -->
+    <img aligh="center" src="https://static.wixstatic.com/media/ccebd8_03719a7c7ac747fb850405a4d5515309~mv2_d_4892_4891_s_4_2.png/v1/fill/w_260,h_260,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0%20%D0%92%D0%9D%D0%90%D0%A31.png" alt="Опис зображення">
+    <div class="registration-form" style="align-items: center; justify-content: center; float: right; height: 100vh;">
+        <div style="text-align: center;">
+            <h2>Реєстрація студентами</h2>
+            <form action="#" method="post">
+                <label for="name">Ім'я:</label> <br>
+                <input type="text" id="name" name="name" required><br><br>
+    
+                <label for="surname">Прізвище:</label> <br>
+                <input type="text" id="surname" name="surname" required><br><br>
+    
+                <label for="email">Електронна пошта:</label> <br>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="phone">Номер телефону:</label> <br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+            </form>
+        </div>
+    </div>
+    <table align="left">
+         <tr>
+            <th class="col-day">День</th>
+            <th class="col-time">Пара</th>
+            <th class="col-subjects">Предмети</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Понеділок</td>
+            <td>8:30-10:05</td>
+            <td>МАТ</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>ФІЗ</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>ФВ</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Вівторок</td>
+            <td>8:30-10:05</td>
+            <td>УКР</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>ІНФ</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>ІН.М</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Середа</td>
+            <td>8:30-10:05</td>
+            <td>МАТ</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>ФВ</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>УКР</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Четвер</td>
+            <td>8:30-10:05</td>
+            <td>ФІЗ</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>ІНФ</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>ІН.М</td>
+        </tr>
+        <tr>
+            <td rowspan="3">П'ятниця</td>
+            <td>8:30-10:05</td>
+            <td>УКР</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>МАТ</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>ФВ</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Субота</td>
+            <td>8:30-10:05</td>
+            <td>ІНФ</td>
+        </tr>
+        <tr>
+            <td>10:25-12:00</td>
+            <td>ІН.М</td>
+        </tr>
+        <tr>
+            <td>12:20-13:55</td>
+            <td>ФІЗ</td>
+        </tr>
+        <tr>
+            <td>Неділя</td>
+            <td colspan="2">Вихідний</td>
+        </tr>
+    
+    <!-- Форма реєстрації тут -->
+</body>
+</html>
